@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">ViewPagerListViewActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="circuito">
+        <item> CIRCUITO CHICO </item>
+        <item> CIRCUITO LUNAR </item>
+        <item> RUTA DEL VINO </item>
+        <item> CIRCUITO DEL SOL </item>
+        <item> CIRCUITO VERDE </item>
+        <item> CIRCUITO DEL RÍO </item>
+    </string-array>
+
+    <!-- **************** CIRCUITO CHICO  ****************** -->
+
+    <string-array name="circuitochico_titulo">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <!--  8 items -->
+    </string-array>
+
+
+    <string-array name="circuitochico_contenido">
+        <item>Limpieza de archivos temporales (AppData Local Temp)</item>
+        <item>Acelerar el inicio Windows 7</item>
+        <item>Limpiar Visor de eventos</item>
+        <item>Liminar archivos innecesarios en el disco duro</item>
+        </string-array>
+
+    <string-array name="circuitochico_contenido_completo">
+        <item>AppData\Local\Temp es la carpeta en donde se almacenan los archivos temporales.El no eliminarlos periódicamente puede causar una serie de fallas. Por ejemplo:
+\n
+    \n•Errores en la reproducción de vídeos (YouTube, Facebook, etc.)
+   \n•Errores en actualizaciones de Windows
+    \n•Errores en instalaciones de programas
+    \n•Congelamientos de programas
+\n
+\n1-Pulsamo las teclas Windows + r para abrir “ejecutar”.
+\n2-Escribimos %temp% y damos aceptar.
+\n3-Seleccionamops todos los archivos pulsando las teclas Ctrl + e .
+\n4-Borramos los archivos seleccionados con la tecla Supr.
+</item>
+
+ <item>
+\n1-Pulsamo las teclas Windows + r para abrir “ejecutar”.
+\n2-Escribimos msconfig y damos aceptar.
+\n3-Se abre la ventana de CONFIGURACION DEL SISTEMA.
+\n4-Damos clic en opciones avanzadas.
+\n5-Marcamos la casilla de NUMERO DE PROCESADORES.
+\n6-Elejimos la cantidad de núcleos que tiene nuestro procesador.
+\n7-Damos aceptar.
+            \n
+Ahora es el turno de quitar todos los programas que inician con Windows y no nos interesan.
+            \n
+\n8-ENn la ventana de CONFIGURACION DE SISTEMA damos clic en inicio de Windows.
+\n9-Deseleccionamos las aplicaciones que no queremos que arranquen con el sistema.
+</item>
+
+        <item>
+            \n1-Vamos a inicio.
+\n2-En BUSCAR PROGRAMAS Y ARCHIVOS escribimos VISOR DE EVENTOS.
+\n3-Se abre la ventana de VISOR DE EVENTOS.
+\n4-Damos clic en REGISTRO DE WINDOWS.
+\n5-Nos sale 5 opciones (aplicaciones,seguridad,instalación,sistema,eventos reenviados)
+Le damos clic derecho a  cada una y escogemos la opción VACIAR REGISTRO.
+\n6-Le damos clic en borrar
+\n7-Si le pide reiniciar le damos que si.
+
+        </item>
+        <item>
+        \n1-Nos vamos a INICIO.
+        \n2-En BUSCAR PROGRAMAS Y ARCHIVOS escribimos LIBERADOR DE ESPACIO EN DISCO.
+        \n3-Seleccionamos todos los archivos.
+        \n4-Le damos aceptar.
+        \n5-Por ultimo le damos ELIMINAR ARCHIVOS.
+        </item>
+
+    </string-array>
+
+    <!-- **************** CIRCUITO LUNAR  ****************** -->
+    <string-array name="circuitolunar_titulo">
+        <item>1</item>
+    </string-array>
+
+    <string-array name="circuitolunar_contenido">
+        <item>
+            Instalar fuentes linux
+        </item>
+    </string-array>
+
+    <string-array name="circuitolunar_contenido_completo">
+        <item>
+        \n1-Abrimos la terminal con CTRL + ALT + T.
+        \n2-Escribimos gksudo nautilus /usr/share/fonts
+        \n3-Se abre la carpeta donde se instalan las tipografías lo único que hacemos es copiar y pegarla en la carpeta.
+        \n4-En la terminal escribimos sudo fc-cache -f -v
+        \n5-Ya echo estos paso nos tendría que quedar instalada nuestra fuente.
+         </item>
+    </string-array>
+
+
+    <!-- **************** RUTA DEL VINO  ****************** -->
+
+    <string-array name="rutadelvino_titulo">
+        <item>1</item>
+
+    </string-array>
+
+
+
+    <string-array name="rutadelvino_contenido">
+        <item>Red de área local en Mac OS X</item>
+
+    </string-array>
+
+    <string-array name="rutadelvino_contenido_completo">
+        <item>
+            \n1-nos vamos al apartado IR > Conectarse al Servidor
+\n2-ponemos smb://IP_DEL_ORDENADOR y le damos conectar.
+\n3-Ponemos usuario y contraseña que tenemos en el otro equipo.
+\n4-Una vez que el equipo se ha conectado, nos saldrá las carpetas que hemos puesto a compartir anteriormente.
+</item>
+         </string-array>
+
+    <!-- **************** CIRCUITO DEL SOL  ****************** -->
+
+    <string-array name="circuitodelsol_titulo">
+        <item>Parque Faunístico</item>
+        <item>Dique de Ullum</item>
+        <item>Quebrada de Zonda</item>
+        <item>Jardín de los Poetas</item>
+        <item>Autódromo El Zonda</item>
+        <item>Cavas de Zonda</item>
+    </string-array>
+
+    <string-array name="circuitodelsol_geo">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="circuitodelsol_contenido">
+        <item>Pocos metros antes de llegar al embalse del Dique de Ullum...</item>
+        <item>Ubicado en uno de los valles más sugestivos e impactantes de la provincia...</item>
+        <item>Esta hermosa conjunción de cerros y valles fue transformada en 1932 en... </item>
+        <item>Es la "puerta de entrada" al Parque Federico Cantoni. En él...</item>
+        <item>Siguiendo la ruta de entrada al parque Federico Cantoni hacia el norte se encuentra el Autódromo El Zonda, rebautizado como...</item>
+        <item>En el año 1928, un contingente de inmigrantes yugoslavos realizó una titánica obra en...</item>
+
+    </string-array>
+
+    <string-array name="circuitodelsol_contenido_completo">
+        <item>Pocos metros antes de llegar al embalse del Dique de Ullum, se encuentra el Parque Faunístico, una excelente alternativa para disfrutar del sol sanjuanino en familia, contemplando y conociendo la fauna autóctona de nuestra provincia y algunos animales exóticos que completan el cuadro. El parque cuenta, además, con juegos y entretenimientos para recreación de los más pequeños.</item>
+        <item>Ubicado en uno de los valles más sugestivos e impactantes de la provincia, el Dique de Ullum es un atractivo turístico de primer orden. Además del excelente paisaje que forma la combinación del espejo del lago con las montañas que lo rodean, es un lugar propicio para deportes náuticos como el wind-surf, lancha, jet-ski y pesca en cualquier época. No obstante esto, cobra especial animación en verano, ya que los numerosos y completos balnearios que se levantan en sus orillas y la cercanía con la ciudad, han hecho del Dique de Ullum el lugar favorito de veraneo de sanjuaninos y turistas.</item>
+        <item>Esta hermosa conjunción de cerros y valles fue transformada en 1932 en un parque provincial por el gobernador de ese entonces Federico Cantoni, con el nombre de "Parque Bernardino Rivadavia", renombrado finalmente como "Parque Federico Cantoni" en 1974 en reconocimiento a su creador. En su interior podemos encontrar varios atractivos de carácter turístico como el Jardín de los Poetas y El Autódromo Eduardo Copello. Siguiendo el recorrido encontramos el Museo Geográfico Einstein, curiosamente emplazado en un ancho túnel dentro de un cerro, y que tiene más de 9.500 piezas arqueológicas y geológicas. En el confín del parque, arribamos al Lugar Histórico donde Sarmiento, proscripto por Rosas en 1840 y rumbo al exilio en Chile, escribió en francés con carbón sobre la roca la famosa frase "Las ideas no se matan".</item>
+        <item>Es la "puerta de entrada" al Parque Federico Cantoni. En él se ha dibujado el Escudo Provincial con estudiada forestación, empleando follaje, piedras y flores. Subiendo por una escalinata de 360 escalones hasta el punto medio de la Sierra Chica de Zonda, a unos 70 metros de altura, puede obtenerse una hermosa vista panorámica del mencionado escudo. A orillas de los paseos internos del escudo se alinean las estatuas de los más destacados escritores argentinos formando el "Jardín de los Poetas", en el cual se rinde homenaje, entre otros, a Sarmiento y Alfonsina Storni.</item>
+        <item>Siguiendo la ruta de entrada al parque Federico Cantoni hacia el norte se encuentra el Autódromo El Zonda, rebautizado "Eduardo Copello" en homenaje a este gran automovilista sanjuanino. La pista tiene un recorrido de 3.230 mts., donde se realizan importantes competencias automovilísticas provinciales y nacionales como el TC 2000. Es considerado uno de los circuitos más difíciles y pintorescos del país y catalogado, por su emplazamiento entre los cerros, como único en Sudamérica. Construido en la ladera de los cerros, posee características exclusivas, tanto por la pericia que exige a los corredores como por la espectacular visión panorámica de la pista que brinda a los espectadores. Fue proyectado por el Ingeniero Hugo Montes Romaní en la Quebrada de Zonda, por lo cual se la denomina también la "Quebrada Rugiente", aludiendo al rugir de los motores que rompen el silencio de la zona en épocas de competencias automovilísticas.</item>
+        <item>En el año 1928, un contingente de inmigrantes yugoslavos realizó una titánica obra en los cerros de la Quebrada El Zonda, en San Juan. Con esfuerzo y valentía, esos 2.500 hombres dinamitaron la sólida roca y cavaron gigantescos túneles en siete niveles sobre esta particular geografía. Una de las cuevas realizadas en esa época es el maravilloso lugar donde actualmente se encuentra la bodega de Champaña Cavas de Zonda, única cava en Sudamérica que tiene por techo natural la montaña. La temperatura en su interior se mantiene durante todo el año entre los 16º y los 18º C.
+\n
+•\tHorarios de visita: Lunes a viernes de 9 a 17 hs.
+Sábados, domingos y feriados de 11 a 17 hs.</item>
+    </string-array>
+
+    <!-- **************** CIRCUITO VERDE  ****************** -->
+
+    <string-array name="circuitoverde_titulo">
+        <item>Iglesia</item>
+        <item>Termas de Pismanta</item>
+        <item>Rodeo</item>
+        <item>Tudcum</item>
+        <item>Dique Cuesta del Viento</item>
+        <item>Jáchal</item>
+        <item>Huaco</item>
+    </string-array>
+
+    <string-array name="circuitoverde_geo">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="circuitoverde_contenido">
+        <item>En su impactante territorio ofrece un gran abanico de opciones: practicar turismo aventura...</item>
+        <item>A 187 km de San Juan, Pismanta ofrece las ventajas de su clima cordillerano seco...</item>
+        <item>Rodeo es la villa turística de la ciudad de Iglesia, con variedad de alojamientos...</item>
+        <item>Es un pequeño y pintoresco pueblo con casas de adobe y cercos de tapia...</item>
+        <item>Incrustado en las montañas aparece el impactante Dique Cuesta del Viento,...</item>
+        <item>Es una ciudad tranquila y muy tradicionalista. En élla se celebra cada año la Fiesta de la Tradición...</item>
+        <item>Cuna del poeta Don Buenaventura Luna, que plasmara en sus poemas la pasión por su terruño</item>
+    </string-array>
+
+    <string-array name="circuitoverde_contenido_completo">
+        <item>En su impactante territorio ofrece un gran abanico de opciones: practicar turismo aventura, pesca, turismo rural, degustar exquisitos chivos y corderos o adquirir productos y artesanías del lugar. Pero el punto más destacado de Iglesia es el Parque Nacional San Guillermo, una de las Reservas Naturales más importantes del mundo, cuyo fin es la preservación ecológica de guanacos y vicuñas (especies en extinción), que comparten su hábitat con el zorro colorado, el puma, el ñandú y el cóndor</item>
+        <item>A 187 km de San Juan, Pismanta ofrece las ventajas de su clima cordillerano seco con vertientes termales. Allí se encuentra el Centro Termal Pismanta, reconocido a nivel internacional por las propiedades curativas de sus aguas, que brotan a 45° C de vertientes volcánicas ubicadas a 2.010 m.s.n.m. y son muy recomendadas para afecciones relacionadas con el sistema termo-regulador del organismo.</item>
+        <item>Rodeo es la villa turística de la ciudad de Iglesia, con variedad de alojamientos que incluyen hotelería, campings, cabañas y posadas. Con su paisaje de enormes bellezas naturales, es uno de los centros turísticos de San Juan que más ha crecido en los últimos tiempos. Posee un excelente clima, con poca humedad y temperaturas agradables casi todo el año.</item>
+        <item>Es un pequeño y pintoresco pueblo con casas de adobe y cercos de tapia. En su paisaje resaltan plantaciones de manzanos, higueras, nogales y durazneros, bordeados por alamedas. Sus tejedoras son reconocidas por la calidad de las prendas que tejen al telar: mantas, ponchos, jergones y alforjas, entre otros.</item>
+        <item>Incrustado en las montañas aparece el impactante Dique Cuesta del Viento, imponente espejo de agua cristalina color turquesa inmerso en un espectacular entorno de cordillera que permite apreciar la naturaleza de un lugar único en el mundo. El fuerte y constante viento que corre en el lugar, sumado a las características de su clima y de sus aguas, hacen que sea considerado, por los entendidos, como uno de los mejores lugares del planeta para la práctica del wind-surf.</item>
+        <item>Es una ciudad tranquila y muy tradicionalista. En élla se celebra cada año la Fiesta de la Tradición, una colorida fiesta folclórica con desfiles, carruajes y diversos espectáculos. Aquí se puede visitar la Iglesia de Jáchal, Monumento Histórico Nacional, donde se puede apreciar el Cristo Crucificado, imagen de un Cristo de tamaño natural, de cuero negro y articulado, realizado por indios de origen cuzqueño y traído desde Potosí en 1783. Otro punto destacado es el dique Los Cauquenes ubicado a 1.100 m.s.n.m., ideal para la pesca deportiva del pejerrey.</item>
+        <item>Cuna del poeta Don Buenaventura Luna, que plasmara en sus poemas la pasión por su terruño, conserva testimonios de una época floreciente de la economía jachallera, como lo es el viejo molino harinero exponente de la vida de este pueblo, que junto a otros molinos de la zona, conforman el circuito de los viejos molinos, recientemente declarados Monumento Histórico Nacional.</item>
+    </string-array>
+
+    <!-- **************** CIRCUITO DEL RÍO  ****************** -->
+
+    <string-array name="circuitodelrio_titulo">
+        <item>Calingasta</item>
+        <item>Barreal</item>
+        <item>Pampa El Leoncito</item>
+        <item>Reserva Astronómica El Leoncito</item>
+    </string-array>
+
+    <string-array name="circuitodelrio_geo">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="circuitodelrio_contenido">
+        <item>Ubicado a 1.500 mts. de altura sobre el nivel del mar, es un lugar que, por su paisaje...</item>
+        <item>Barreal es la villa turística de este sector. Enmarcado por la cercana presencia de ..</item>
+        <item>Se trata de una increíble planicie arcillosa blanquecina, casi sin declive, resto de...</item>
+        <item>Con una extensión de 76.000 hectáreas, este privilegiado lugar posee un cielo ...</item>
+    </string-array>
+
+    <string-array name="circuitodelrio_contenido_completo">
+        <item>Ubicado a 1.500 mts. de altura sobre el nivel del mar, es un lugar que, por su paisaje, ríos, montañas, valles, lo quebrado del terreno, la flora, la fauna, y el cielo límpido poblado de estrellas deslumbra en cualquier época del año. Entre sus mayores atractivos se encuentra el Cerro Alcázar, una caprichosa formación de rocas que recuerdan al famoso Alcázar español.</item>
+        <item>Barreal es la villa turística de este sector. Enmarcado por la cercana presencia de la Cordillera de los Andes y caracterizado por las típicas alamedas que bordean sus calles, cuenta con una variada oferta de alojamientos y atracciones turísticas. Pesca, trekking, cabalgatas, travesías 4x4 en alta cordillera y enduro son algunas de las actividades que pueden realizarse.</item>
+        <item>Se trata de una increíble planicie arcillosa blanquecina, casi sin declive, resto de antigua cuenca lacustre, que tiene 14 km de largo por 4 km de ancho. Estas características, sumadas al constante viento que sopla en el lugar, hacen de El Leoncito una pista perfecta para la práctica del Carrovelismo, deporte no convencional que se practica con autos a vela (wind-cars) que corren empujados por el viento, cuya velocidad, cuadruplicada por la vela, puede alcanzar más de 135 km/h.</item>
+        <item>Con una extensión de 76.000 hectáreas, este privilegiado lugar posee un cielo tan claro y limpio que permite la observación de los astros en un promedio de más de 275 noches por año. Dentro de la reserva se encuentra el Complejo Astronómico El Leoncito, ubicado a 2.552 metros sobre el nivel del mar y equipado con un telescopio de alta complejidad, y la Estación Astronómica Carlos Cesco, que posee características técnicas que lo hacen uno de los más importantes del hemisferio sur.</item>
+    </string-array>
+
+</resources>
